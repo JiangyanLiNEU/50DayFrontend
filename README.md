@@ -1,1 +1,1 @@
-# 50DayFrontend
+# 50 Day Frontend Practice
