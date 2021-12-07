@@ -1,28 +1,56 @@
+
+
 # 50 Day Frontend Practice
-> Goals:
+ > <h3> Goals: </h3>
 * Sharpen basic frontend skills
 * No framework used in those projects
 * Each one should be simple and fast
+<br/>
+<br/>
 
-> Project contents:
-* Expending Cards : 'click' will invoke the expension of target picture
-* Interactive Progress Bar: visualize progress by the color of the bar; and "Congrats" when you hit the end;
+ > <h3> Project contents:</h3>
 
+| Name                           |Description                                                                     |
+|:---:|:---:|
+| [Expending Cards](#p1)         | 'click' will invoke the expension of target picture                            |
+| [Interactive Progress Steps](#p2) |visualize progress by the color of the bar; and "Congrats" when you hit the end;|
+<br/>
+<br/>
 
-## P1 ( Dec 6, 2021 )
+>  <h3> Detailed Demo</h3>
 
-* flexbox in css; 
-* Hange elements' classList in JS
-![Demo](https://github.com/JiangyanLiNEU/50DayFrontend/blob/main/readmeIMG/1-1.png)
-![Demo](https://github.com/JiangyanLiNEU/50DayFrontend/blob/main/readmeIMG/1-2.png)
+<ol>
+  <li><h4 id='p1'>Expending Cards ( Dec 6, 2021 )</h4>
+    <ul>
+      <li>Flexbox in css; </li>
+      <li>Change elements' classList in JS</li>
+    </ul>
+  </li>
+  <div>
+  <table>
+          <tr>
+            <td valign="top"><img src="https://github.com/JiangyanLiNEU/50DayFrontend/blob/main/readmeIMG/1-1.png"/></td>
+            <td valign="top"><img src="https://github.com/JiangyanLiNEU/50DayFrontend/blob/main/readmeIMG/1-2.png"/></td>
+          </tr>
+        </table>
+  </div>
+  <li><h4 id='p2'>Process Steps ( Dec 7, 2021 )</h4>
+    <ul>
+      <li>postion: relate/absolute;</li>
+      <li>element::before; </li>
+      <li>custom properties (--line-border-fill)</li>
+      <li>btn:hover/active/disabled</li>
+      <li>modify elements' style/class in JS</li>
+    </ul>
+  </li>
+  <div>
+  <table>
+          <tr>
+            <td valign="top"><img src="https://github.com/JiangyanLiNEU/50DayFrontend/blob/main/readmeIMG/2-1.png"/></td>
+            <td valign="top"><img src="https://github.com/JiangyanLiNEU/50DayFrontend/blob/main/readmeIMG/2-2.png"/></td>
+            <td valign="top"><img src="https://github.com/JiangyanLiNEU/50DayFrontend/blob/main/readmeIMG/2-3.png"/></td>
+          </tr>
+        </table>
+  </div>
+</ol>
 
-## P2 ( Dec 7, 2021 )
-
-* postion: relate/absolute;
-* element::before; 
-* custom properties (--line-border-fill)
-* btn:hover/active/disabled
-* modify elements' style/class in JS
-![Demo](https://github.com/JiangyanLiNEU/50DayFrontend/blob/main/readmeIMG/2-1.png)
-![Demo](https://github.com/JiangyanLiNEU/50DayFrontend/blob/main/readmeIMG/2-2.png)
-![Demo](https://github.com/JiangyanLiNEU/50DayFrontend/blob/main/readmeIMG/2-3.png)
