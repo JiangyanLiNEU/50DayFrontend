@@ -8,7 +8,7 @@
 * Expending Cards : 'click' will invoke the expension of target picture
 
 
-## Dec 6, 2021  DAY 1
+## P1 ( Dec 6, 2021 )
 
 * flexbox in css; 
 * Hange elements' classList in JS
