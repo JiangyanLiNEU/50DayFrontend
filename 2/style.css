@@ -1,0 +1,115 @@
+/* google font roboto */
+
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+:root {
+    --line-border-fill: lightgreen;
+    --line-border-empty: white;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    margin-bottom: 50px;
+    transition: ease-in 0.5s;
+}
+
+#there {
+    color: var(--line-border-fill);
+}
+
+#Notthere {
+    color: var(--line-border-empty);
+}
+
+body {
+    background-color: steelblue;
+    font-family: 'Muli', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+.progress-container {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    width: 350px;
+    max-width: 100%;
+    margin-bottom: 30px;
+}
+
+.progress-container::before {
+    content: '';
+    position: absolute;
+    height: 3px;
+    width: 100%;
+    background-color: var(--line-border-empty);
+    top: 45%;
+    left: 0;
+    z-index: -1;
+    transform: translateY(-50%);
+}
+
+.progress {
+    position: absolute;
+    height: 4px;
+    width: 0%;
+    background-color: var(--line-border-fill);
+    top: 45%;
+    left: 0;
+    z-index: -1;
+    transition: 0.5s ease;
+    transform: translateY(-50%);
+}
+
+.circle {
+    background-color: var(--line-border-empty);
+    color: black;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    border: 2px --line-border-empty solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle.active {
+    background-color: var(--line-border-fill);
+    border: 3px var(--line-border-fill) solid;
+    color: black;
+}
+
+.btn {
+    background-color: var(--line-border-fill);
+    color: var(--line-border-empty);
+    border: 0;
+    border-radius: 6px;
+    cursor: pointer;
+    font-family: inherit;
+    padding: 4px 14px;
+    margin: 5px;
+    font-size: 15px;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+}
+
+.btn:active {
+    transform: scale(0.9);
+}
+
+.btn:disabled {
+    background-color: gray;
+    cursor: not-allowed;
+}
