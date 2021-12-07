@@ -6,7 +6,7 @@
 
 > Project contents:
 * Expending Cards : 'click' will invoke the expension of target picture
-<hr/>
+
 
 ## Dec 6, 2021  DAY 1
 
