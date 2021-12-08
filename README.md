@@ -1,19 +1,21 @@
-
-
 # 50 Day Frontend Practice
- > <h3> Goals: </h3>
-* Sharpen basic frontend skills
-* No framework used in those projects
-* Each one should be simple and fast
-<br/>
-<br/>
 
- > <h3> Project contents:</h3>
+> <h3> Goals: </h3>
 
-| Name                           |Description                                                                     |
-|:---:|:---:|
-| [Expending Cards](#p1)         | 'click' will invoke the expension of target picture                            |
-| [Interactive Progress Steps](#p2) |visualize progress by the color of the bar; and "Congrats" when you hit the end;|
+- Sharpen basic frontend skills
+- No framework used in those projects
+- Each one should be simple and fast
+  <br/>
+  <br/>
+
+> <h3> Project contents:</h3>
+
+|               Name                |                                   Description                                    |
+| :-------------------------------: | :------------------------------------------------------------------------------: |
+|      [Expending Cards](#p1)       |               'click' will invoke the expension of target picture                |
+| [Interactive Progress Steps](#p2) | visualize progress by the color of the bar; and "Congrats" when you hit the end; |
+|         [Rotate Nav](#p3)         |            Click button will rotate the page and show the nav links;             |
+
 <br/>
 <br/>
 
@@ -52,5 +54,20 @@
           </tr>
         </table>
   </div>
-</ol>
 
+  <li><h4 id='p3'>Rotate Nav ( Dec 8, 2021 )</h4>
+    <ul>
+      <li>Transform: rotate(-70deg) </li>
+      <li>postion: fixed/absolute</li>
+      <li>different color to demenstrate different pages</li>
+    </ul>
+  </li>
+  <div>
+  <table>
+          <tr>
+            <td valign="top"><img src="./readmeIMG/3-1.png"/></td>
+            <td valign="top"><img src="./readmeIMG/3-2.png"/></td>
+          </tr>
+        </table>
+  </div>
+</ol>
