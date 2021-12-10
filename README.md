@@ -16,6 +16,7 @@
 | [Interactive Progress Steps](#p2) |    visualize progress by the color of the bar; and "Congrats" when you hit the end;    |
 |         [Rotate Nav](#p3)         |               Click button will rotate the page and show the nav links;                |
 |    [Hidden Search Widget](#p4)    | Click the search icon will expand the search input area, Click again it will disappear |
+|       [Blurry Loading](#p5)       |                update the text opacity and img filter blur every 30 ms                 |
 
 <br/>
 <br/>
@@ -85,6 +86,25 @@
           <tr>
             <td valign="top"><img src="./readmeIMG/4-1.png"/></td>
             <td valign="top"><img src="./readmeIMG/4-2.png"/></td>
+          </tr>
+        </table>
+  </div>
+
+  <li><h4 id='p5'>Blurry Loading ( Dec 10, 2021 )</h4>
+    <ul>
+      <li>filter: blur(0px) </li>
+      <li>ele.style.opacity = 0</li>
+      <li>ele.style.filter = `blur(${loading}px)`</li>
+      <li>ele.innerHTML = `${load}`</li>
+      <li>scale function in JS</li>
+    </ul>
+  </li>
+  <div>
+  <table>
+          <tr>
+            <td valign="top"><img src="./readmeIMG/5-1.png"/></td>
+            <td valign="top"><img src="./readmeIMG/5-2.png"/></td>
+            <td valign="top"><img src="./readmeIMG/5-3.png"/></td>
           </tr>
         </table>
   </div>
