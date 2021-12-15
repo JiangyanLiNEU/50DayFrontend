@@ -10,13 +10,14 @@
 
 > <h3> Project contents:</h3>
 
-|               Name                |                                      Description                                       |
-| :-------------------------------: | :------------------------------------------------------------------------------------: |
-|      [Expending Cards](#p1)       |                  'click' will invoke the expension of target picture                   |
-| [Interactive Progress Steps](#p2) |    visualize progress by the color of the bar; and "Congrats" when you hit the end;    |
-|         [Rotate Nav](#p3)         |               Click button will rotate the page and show the nav links;                |
-|    [Hidden Search Widget](#p4)    | Click the search icon will expand the search input area, Click again it will disappear |
-|       [Blurry Loading](#p5)       |                update the text opacity and img filter blur every 30 ms                 |
+|               Name                |                                             Description                                              |
+| :-------------------------------: | :--------------------------------------------------------------------------------------------------: |
+|      [Expending Cards](#p1)       |                         'click' will invoke the expension of target picture                          |
+| [Interactive Progress Steps](#p2) |           visualize progress by the color of the bar; and "Congrats" when you hit the end;           |
+|         [Rotate Nav](#p3)         |                      Click button will rotate the page and show the nav links;                       |
+|    [Hidden Search Widget](#p4)    |        Click the search icon will expand the search input area, Click again it will disappear        |
+|       [Blurry Loading](#p5)       |                       update the text opacity and img filter blur every 30 ms                        |
+|      [Scroll Animation](#p6)      | When we scroll down the window, the content box will easi in from left or right based on even or odd |
 
 <br/>
 <br/>
@@ -105,6 +106,23 @@
             <td valign="top"><img src="./readmeIMG/5-1.png"/></td>
             <td valign="top"><img src="./readmeIMG/5-2.png"/></td>
             <td valign="top"><img src="./readmeIMG/5-3.png"/></td>
+          </tr>
+        </table>
+  </div>
+
+  <li><h4 id='p6'>Scroll Animation ( Dec 15, 2021 )</h4>
+    <ul>
+      <li>transform: translateX() to set initial box location </li>
+      <li>.box:nth-of-type(even), to make difference between even and odd</li>
+      <li>window.innerHeight to get triggerBottom height</li>
+      <li>box.getBoundingClientRect() to get location of box</li>
+      <li>add/remove 'show' into classlist to control the animation</li>
+    </ul>
+  </li>
+  <div>
+  <table>
+          <tr>
+            <td valign="top"><img src="./readmeIMG/6-1.png"/></td>
           </tr>
         </table>
   </div>
